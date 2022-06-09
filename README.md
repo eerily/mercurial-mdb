@@ -2,12 +2,14 @@
 
 mercurial.db is a easy way to store data in a discord.js bot with MongoDB.
 
-## discord.JS example
+## discord.js example
 ```javascript
 import {
   Client
 } from 'discord.js';
-import { Database } from 'mercurial.db';
+import {
+  Database
+} from 'mercurial.db';
 
 const db = new Database("MONGODB URL", "JSON", { useUnique: true });
 
