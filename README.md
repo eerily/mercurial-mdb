@@ -1,13 +1,13 @@
-# Mercurial MDB (MongoDB)
+# mercurial.db
 
-Mercurial MDB is a easy way to store data in a discord.js bot with MongoDB.
+mercurial.db is a easy way to store data in a discord.js bot with MongoDB.
 
-## Discord.JS Example
+## discord.JS example
 ```javascript
 import {
   Client
 } from 'discord.js';
-import { Database } from 'mercurial-mdb';
+import { Database } from 'mercurial.db';
 
 const db = new Database("MONGODB URL", "JSON", { useUnique: true });
 
@@ -25,18 +25,18 @@ db.on("ready", async () => {
 });
 ```
 
-## Functions
+## functions
 - .all()
-  - Gets all JSON data from the database.
+  - gets all JSON data from the database.
 - .deleteAll()
-  - Deletes the database.
+  - deletes the database.
 - .set(key, value)
-  - Sets a key and value in the database
+  - sets a key and value in the database
 - .get(key)
-  - Gets key value can use dots to traverse
+  - gets key value can use dots to traverse
 - .push(key)
-  - Adds a item from a array
+  - adds a item from a array
 - .pull(key)
-  - Removes a item from a array
+  - removes a item from a array
 - .delete(key)
-  - Deletes a key value pair
+  - deletes a key value pair
