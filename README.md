@@ -22,7 +22,8 @@ db.on("ready", async () => {
 
   // Login with the environment data
   client.login("BOT TOKEN");
-});```
+});
+```
 
 ## Functions
 - .all() // Gets all JSON data from the database.
