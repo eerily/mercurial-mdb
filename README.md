@@ -42,3 +42,31 @@ db.on("ready", async () => {
   - removes a item from a array
 - .delete(key)
   - deletes a key value pair
+- .has(key) 
+  - checks if a key exists
+- .math(key, operator, value)
+  - does math with a value. Ex. .math('John.age', '*', 2)
+- .add(key, value)
+  - adds a value
+- .subtract(key, value)
+  - subtracts a value
+- export(fileName, path)
+  - exports a database
+- import(data, options)
+  - imports data to a database
+- fetchLatency()
+  - returns the database latency
+- datatype(key)
+  - returns the data type of the key
+- keyArray()
+  - returns a array of the keys
+- valueArray()
+  - returns a array of the values
+- entries()
+  - returns the entry count of the current model
+- raw(parameters)
+  - returns the raw data from the current model
+- random(number)
+  - returns a random entry from the database
+- table(name)
+  - this acts like `quick.db#table`. it will return new instance of itself

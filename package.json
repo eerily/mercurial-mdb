@@ -1,6 +1,6 @@
 {
   "name": "mercurial.db",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "a easy and quick way to use MongoDB with discord.js (fork of hive-db)",
   "main": "index.js",
   "homepage": "https://github.com/eerily/mercurial.db",
