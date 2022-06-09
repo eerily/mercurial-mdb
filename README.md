@@ -1,4 +1,4 @@
-# mercurial.db
+# mercurial.db (fork of hive-db)
 
 mercurial.db is a easy way to store data in a discord.js bot with MongoDB.
 

@@ -1,4 +1,4 @@
-class HiveErr extends Error {
+class MercurialErr extends Error {
 
     constructor(message, name = null) {
         super();
@@ -9,4 +9,4 @@ class HiveErr extends Error {
 
 }
 
-module.exports = HiveErr;
+module.exports = MercurialErr;

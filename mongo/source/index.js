@@ -1,4 +1,3 @@
-
 const Base = require("./base");
 const Schema = require("./schema");
 const Error = require("./err");
@@ -258,7 +257,7 @@ class db extends Base {
    * @param {string} fileName
    * @param {string} path
    */
-  export(fileName="hive", path="./") {
+  export(fileName="mercurial", path="./") {
       return new Promise((resolve, reject) => {
           this.emit("debug", `Exporting database entries to ${path || ""}${fileName}`);
           this.all().then((data) => {
@@ -516,7 +515,7 @@ class db extends Base {
    * @returns {string}
    */
   toString() {
-      return `Hive<{${this.schema.modelName}}>`;
+      return `Mercurial<{${this.schema.modelName}}>`;
   }
 
   /**
