@@ -26,10 +26,17 @@ db.on("ready", async () => {
 ```
 
 ## Functions
-- .all() // Gets all JSON data from the database.
-- .deleteAll() // Deletes the database.
-- .set(key, value) // Sets a key and value in the database
-- .get(key) // Gets key value can use dots to traverse
-- .push(key) // Adds a item from a array
-- .pull(key) // Removes a item from a array
-- .delete(key) // Deletes a key value pair
+- .all()
+  - Gets all JSON data from the database.
+- .deleteAll()
+  - Deletes the database.
+- .set(key, value)
+  - Sets a key and value in the database
+- .get(key)
+  - Gets key value can use dots to traverse
+- .push(key)
+  - Adds a item from a array
+- .pull(key)
+  - Removes a item from a array
+- .delete(key)
+  - Deletes a key value pair
