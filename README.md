@@ -22,7 +22,7 @@ db.on("ready", async () => {
     intents: []
   });
 
-  // Login with the environment data
+  // Login with the bot token
   client.login("BOT TOKEN");
 });
 ```
